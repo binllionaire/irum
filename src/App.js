@@ -10,9 +10,7 @@ import guideimg from "./img/guide.png"
 import instaimg from "./img/instagram.png"
 import talkimg from "./img/talk.png"
 import youtubeimg from "./img/youtube.png"
-import {useRef} from "react"
 import { Link } from 'react-scroll';
-const {element, onMoveToElement} = require("./utils/useMoveScroll")
 
 function App() {
 
