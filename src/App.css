@@ -36,7 +36,74 @@
     transform: rotate(360deg);
   }
 }
-
+.show-menu{
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top:70px;
+  left: 0px;
+  transition: 1s;
+  background-color: white;
+  }
+  #menu{
+    position:absolute;
+    left:10px;
+    top:8px;
+  }
+  .hide-menu{
+  width: 50%;
+  height: 100vh;
+  position: absolute;
+  top:70px;
+  left: -376px;
+  transition: 1s;
+  }
+#MfooterRight img{
+  margin-top: 30px;
+  margin-left: 10px;
+}
+#MBody > #home >img{
+  margin-top: 40px;
+}
+#Mheader{
+  width: 100%;
+  background-color: white;
+  height: 70px;
+}
+#Mheader p{
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 50px;
+}
+#MBody{
+  width: 100%;
+}
+#MFooter{
+  width:80%;
+}
+#Mlogo{
+  width:100%;
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+#Mtab{
+  width: 100%;
+  height: 50px;
+  float: right;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#MBody img{
+  width: 100%;
+}
+#Mtab p{
+  float: left;
+  margin-left:10px;
+  font-size: 15px;
+}
 header{
   width: 70%;
   height: 40px;
@@ -58,7 +125,7 @@ header{
 }
 #tab p {
   float: right;
-  margin-left: 30px;
+  margin-left: 2%;
   cursor: pointer;
   color:#5f5f5f;
 }
