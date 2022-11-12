@@ -30,39 +30,34 @@ const renderItems = () => {
           <div id="Mlogo">
           <p>IRUM</p>
           </div>
-          {/* <div id="Mtab" >
-          <Link to="home" spy={true} smooth={true}>
-          <p id="tabhome">홈</p>
-          </Link>
-          <Link to="winter" spy={true} smooth={true}>
-          <p id="tabwinter">윈터스쿨</p>
-          </Link>
-          <Link to="contents" spy={true} smooth={true}>
-          <p id="tabcontents">콘텐츠</p>
-          </Link>
-         </div>
-         <div id='Mtab'>
-         <Link to="goal" spy={true} smooth={true}>
-          <p id="tabgoal">핵심목표</p>
-          </Link>
-         <Link to="step" spy={true} smooth={true}>
-          <p id="tabstep">입학절차</p>
-          </Link>
-         <Link to="guide" spy={true} smooth={true}>
-          <p id="tabguide">모집개요</p>
-          </Link>
-          <Link to="map" spy={true} smooth={true}>
-          <p id="tabmap">오시는길</p>
-          </Link>
-          </div> */}
+  
         </header>
         <body id="MBody">
         <div className={isOpen ? "show-menu" : "hide-menu"}> 
-                        <li >1</li>
-                        <li >2</li>
-                        <li >3</li>
-                        <li >4</li>
-                </div>
+        <div id="Mtab" >
+          <Link to="home" spy={true} smooth={true}>
+          <p id="tabhome" onClick={()=>toggleMenu()}>홈</p>
+          </Link>
+          <Link to="winter" spy={true} smooth={true}>
+          <p id="tabwinter" onClick={()=>toggleMenu()}>윈터스쿨</p>
+          </Link>
+          <Link to="contents" spy={true} smooth={true}>
+          <p id="tabcontents" onClick={()=>toggleMenu()}>콘텐츠</p>
+          </Link>
+         <Link to="goal" spy={true} smooth={true}>
+          <p id="tabgoal" onClick={()=>toggleMenu()}>핵심목표</p>
+          </Link>
+         <Link to="step" spy={true} smooth={true}>
+          <p id="tabstep" onClick={()=>toggleMenu()}>입학절차</p>
+          </Link>
+         <Link to="guide" spy={true} smooth={true}>
+          <p id="tabguide" onClick={()=>toggleMenu()}>모집개요</p>
+          </Link>
+          <Link to="map" spy={true} smooth={true}>
+          <p id="tabmap" onClick={()=>toggleMenu()}>오시는길</p>
+          </Link>
+          </div>
+          </div>
           <div id="home">
           <img src={Mmainimg} />
           </div>
@@ -118,7 +113,9 @@ const renderItems = () => {
     <div className="App">
       <header>
         <div id="logo">
+        <Link to="home" spy={true} smooth={true}>
         <p align="left">IRUM</p>
+        </Link>
         </div>
         <div id="tab">
         <Link to="map" spy={true} smooth={true}>

@@ -38,25 +38,26 @@
 }
 .show-menu{
   width: 50%;
-  height: 100vh;
-  position: absolute;
+  height: 100%;
+  position: fixed;
   top:70px;
   left: 0px;
   transition: 1s;
   background-color: white;
   }
   #menu{
-    position:absolute;
-    left:10px;
-    top:8px;
+  position:absolute;
+  left:10px;
+  top:8px;
   }
   .hide-menu{
   width: 50%;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top:70px;
   left: -376px;
   transition: 1s;
+  background-color: white;
   }
 #MfooterRight img{
   margin-top: 30px;
@@ -100,13 +101,13 @@
   width: 100%;
 }
 #Mtab p{
-  float: left;
-  margin-left:10px;
-  font-size: 15px;
+  margin-left:30px;
+  font-size: 18px;
+  text-align: left;
 }
 header{
   width: 70%;
-  height: 40px;
+  height: 60px;
   line-height: 40px;
   margin : 0 auto 0 auto;
   left:0;
@@ -117,6 +118,7 @@ header{
   width:20%;
   float: left;
   height: 50px;
+  cursor:pointer;
 }
 #tab{
   float:left;
