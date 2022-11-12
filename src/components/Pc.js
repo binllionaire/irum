@@ -9,7 +9,7 @@ import instaimg from "../img/instagram.png"
 import talkimg from "../img/talk.png"
 import youtubeimg from "../img/youtube.png"
 import { Link } from 'react-scroll';
-
+import Email from "./Email";
 function Pc() {
     return (
         <div className="App">
@@ -23,6 +23,9 @@ function Pc() {
             <Link to="map" spy={true} smooth={true}>
             <p id="tabmap">오시는길</p>
             </Link>
+            <Link to="submit" spy={true} smooth={true}>
+            <p id="tabsubmit">온라인접수</p>
+            </Link>
             <Link to="step" spy={true} smooth={true}>
             <p id="tabstep">입학절차</p>
             </Link>
@@ -32,14 +35,11 @@ function Pc() {
             <Link to="goal" spy={true} smooth={true}>
             <p id="tabgoal">핵심목표</p>
             </Link>
-            <Link to="contents" spy={true} smooth={true}>
-            <p id="tabcontents">콘텐츠</p>
-            </Link>
             <Link to="winter" spy={true} smooth={true}>
             <p id="tabwinter">윈터스쿨</p>
             </Link>
-            <Link to="home" spy={true} smooth={true}>
-            <p id="tabhome">홈</p>
+            <Link to="contents" spy={true} smooth={true}>
+            <p id="tabcontents">콘텐츠</p>
             </Link>
             </div>
           </header>
@@ -47,15 +47,15 @@ function Pc() {
             <div id="home">
             <img src={mainimg} width = "70%"/>
             </div>
-            <div id="winter">
-              <p className="subTitle">윈터스쿨</p>
-              <hr/>
-              <img src={winterimg} width = "70%"/>
-            </div>
             <div id="contents">
               <p className="subTitle">컨텐츠</p>
               <hr/>
               <img src={contentsimg} width = "70%"/>
+            </div>
+            <div id="winter">
+              <p className="subTitle">윈터스쿨</p>
+              <hr/>
+              <img src={winterimg} width = "70%"/>
             </div>
             <div id="goal">
               <p className="subTitle">핵심목표</p>
@@ -71,6 +71,11 @@ function Pc() {
               <p className="subTitle">입학절차</p>
               <hr/>
               <img src={stepimg} width = "70%"/>
+            </div>
+            <div id="submit">
+            <p className="subTitle">온라인 접수</p>
+              <hr/>
+            <Email/>
             </div>
             <div id="map">
               <p className="subTitle">오시는길</p>

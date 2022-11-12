@@ -33,11 +33,11 @@ function Mobile() {
             <Link to="home" spy={true} smooth={true}>
             <p id="tabhome" onClick={()=>toggleMenu()}>홈</p>
             </Link>
-            <Link to="winter" spy={true} smooth={true}>
-            <p id="tabwinter" onClick={()=>toggleMenu()}>윈터스쿨</p>
-            </Link>
             <Link to="contents" spy={true} smooth={true}>
             <p id="tabcontents" onClick={()=>toggleMenu()}>콘텐츠</p>
+            </Link>
+            <Link to="winter" spy={true} smooth={true}>
+            <p id="tabwinter" onClick={()=>toggleMenu()}>윈터스쿨</p>
             </Link>
            <Link to="goal" spy={true} smooth={true}>
             <p id="tabgoal" onClick={()=>toggleMenu()}>핵심목표</p>
@@ -56,15 +56,15 @@ function Mobile() {
             <div id="home">
             <img src={Mmainimg} />
             </div>
-            <div id="winter">
-              <p className="subTitle">윈터스쿨</p>
-              <hr/>
-              <img src={winterimg} width = "70%"/>
-            </div>
             <div id="contents">
               <p className="subTitle">컨텐츠</p>
               <hr/>
               <img src={contentsimg} width = "70%"/>
+            </div>
+            <div id="winter">
+              <p className="subTitle">윈터스쿨</p>
+              <hr/>
+              <img src={winterimg} width = "70%"/>
             </div>
             <div id="goal">
               <p className="subTitle">핵심목표</p>
