@@ -3,10 +3,11 @@ https://irumipsi.kr/
 
 pc버전
 
-<img width ="600" src ="https://user-images.githubusercontent.com/46593078/201474526-9a0389e8-6e33-4259-b6f1-f5a55dec488f.png">
+<img width="1000" alt="스크린샷 2022-11-16 오후 7 28 27" src="https://user-images.githubusercontent.com/46593078/202157558-74683c78-464a-4f78-b7ad-c289b0343bb8.png">
+
 
 모바일 버전
 
-<img width ="200" src ="https://user-images.githubusercontent.com/46593078/201474641-763e03ce-0a2a-41ff-802a-1bb187cb0aca.png" float="left">
-<img width ="200" src ="https://user-images.githubusercontent.com/46593078/201474644-784e5b5b-f877-43ef-b2e7-3ee994e55ee1.png" float="left">
+<img width="300" alt="스크린샷 2022-11-16 오후 7 27 58" src="https://user-images.githubusercontent.com/46593078/202157592-3c474136-59f3-4a8a-a21b-49da82fbbec9.png">
+
 
