@@ -3,7 +3,7 @@ https://irumipsi.kr/
 
 pc버전
 
-<img width="1000" alt="스크린샷 2022-11-16 오후 7 28 27" src="https://user-images.githubusercontent.com/46593078/202157558-74683c78-464a-4f78-b7ad-c289b0343bb8.png">
+<img width="800" alt="스크린샷 2022-11-16 오후 7 28 27" src="https://user-images.githubusercontent.com/46593078/202157558-74683c78-464a-4f78-b7ad-c289b0343bb8.png">
 
 
 모바일 버전
