@@ -51,6 +51,9 @@ form input{
   border: #a8a8a8 solid 2px;
 
 }
+#home > img{
+  margin-top: 20px;
+}
 #send{
   background-color: black;
   color: white;

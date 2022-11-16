@@ -8,6 +8,7 @@ import guideimg from "../img/guide.png"
 import instaimg from "../img/instagram.png"
 import talkimg from "../img/talk.png"
 import youtubeimg from "../img/youtube.png"
+import welcomeimg from "../img/welcome.png"
 import { Link } from 'react-scroll';
 import Email from "./Email";
 function Pc() {
@@ -41,11 +42,19 @@ function Pc() {
             <Link to="contents" spy={true} smooth={true}>
             <p id="tabcontents">콘텐츠</p>
             </Link>
+            <Link to="welcome" spy={true} smooth={true}>
+            <p id="tabcontents">인사말</p>
+            </Link>
             </div>
           </header>
           <body>
             <div id="home">
             <img src={mainimg} width = "70%"/>
+            </div>
+            <div id="welcome">
+              <p className="subTitle">인사말</p>
+              <hr/>
+              <img src={welcomeimg} width = "70%"/>
             </div>
             <div id="contents">
               <p className="subTitle">컨텐츠</p>

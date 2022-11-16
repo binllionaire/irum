@@ -12,6 +12,7 @@ import menubarimg from "../img/menubar.png"
 import { Link } from 'react-scroll';
 import {useState} from 'react';
 import Email from "./Email";
+import welcomeimg from "../img/welcome.png"
 
 function Mobile() {
     const [isOpen, setMenu] = useState(false);  // 메뉴의 초기값을 false로 설정
@@ -32,6 +33,9 @@ function Mobile() {
           <div id="Mtab" >
             <Link to="home" spy={true} smooth={true}>
             <p id="tabhome" onClick={()=>toggleMenu()}>홈</p>
+            </Link>
+            <Link to="welcome" spy={true} smooth={true}>
+            <p id="tabwelcome" onClick={()=>toggleMenu()}>인사말</p>
             </Link>
             <Link to="contents" spy={true} smooth={true}>
             <p id="tabcontents" onClick={()=>toggleMenu()}>콘텐츠</p>
@@ -55,6 +59,11 @@ function Mobile() {
             </div>
             <div id="home">
             <img src={Mmainimg} />
+            </div>
+            <div id="welcome">
+              <p className="subTitle">인사말</p>
+              <hr/>
+              <img src={welcomeimg} width = "70%"/>
             </div>
             <div id="contents">
               <p className="subTitle">컨텐츠</p>
